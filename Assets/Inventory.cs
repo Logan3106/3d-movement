@@ -38,7 +38,7 @@ public class Inventory : MonoBehaviour
             itemHeld.transform.GetComponent<Rigidbody>().isKinematic = false;
             itemHeld.transform.GetComponent<BoxCollider>().isTrigger = false;
             itemHeld.transform.position += new Vector3(0, 0, reach);
-            itemHeld = null;
+            itemHeld = null; //:)
         }
     }
 }
